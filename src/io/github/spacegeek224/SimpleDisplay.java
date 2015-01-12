@@ -17,5 +17,6 @@ public class SimpleDisplay {
 		l.setText(ltext);
 		f.setTitle(ftitle);
 		f.setSize(width, height);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
